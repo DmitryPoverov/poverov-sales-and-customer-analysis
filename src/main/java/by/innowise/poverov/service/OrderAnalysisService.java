@@ -5,7 +5,12 @@ import by.innowise.poverov.Order;
 import by.innowise.poverov.OrderItem;
 import by.innowise.poverov.OrderStatus;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Optional;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class OrderAnalysisService implements OrderAnalysisInterface {
